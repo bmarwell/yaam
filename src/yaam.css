@@ -1,0 +1,136 @@
+/*
+**	Erstellt von [RdW]Sentinel
+**	Kontakt: Sentinel@RdW-Allianz.de
+**	http://sentinel.rdw-allianz.de
+**	http://www.rdw-allianz.de
+**	
+**	IRC: #rdw-allianz @ irc.gamesurge.net
+**	irc://irc.gamesurge.net:6667/rdw-allianz
+**
+**	Zur Erstellung benutzte Editoren:
+**	vi, vim, gedit, bluefish
+**
+**	Getestet mit:
+**	Galeon, Firefox, links
+*/
+
+a:link {
+	color: #dfdf00;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #dfdf00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fec22f;
+	text-decoration: overline underline;
+}
+
+
+body {
+	font-family: Bitstream Vera Sans, Verdana, sans, Arial;
+	font-size: 11pt;
+	color: #ffffff;
+	background-color: #161b2e;
+}
+
+iframe {
+	background-color: #161b2e;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 0px;	
+}
+
+input {
+	font-family: Bitstream Vera Sans, Verdana, sans, Arial;
+	font-size: 10pt;
+	color: #ffffff;
+	background-color: #161b2e;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	height: 14pt;
+	margin-bottom: 4px;
+}
+
+img {
+	border: 0px;
+}
+
+select {
+	font-family: Bitstream Vera Sans, Verdana, sans, Arial;
+	font-size: 10pt;
+	color: #ffffff;
+	background-color: #161b2e;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	height: 14pt;
+	margin-bottom: 4px;
+	width: 150px;
+}
+
+
+table {
+	padding: 0px;
+	margin-top: 0px;
+	border-spacing: 	8px
+}
+
+td {
+	padding-top:0px;
+	padding-bottom:3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding: 3px;
+	vertical-align: top;
+	border-bottom-width: 1px;   /* nur unten */
+	border-bottom-color: #dddddd;
+	border-bottom-style: solid;
+	border-right-width: 1px;    /* nur rechts */
+	border-right-color: #dddddd;
+	border-right-style: solid;	
+}
+
+td.none {
+	padding: 3px;
+	vertical-align: top;
+	border: none;
+	font-size: 14pt;
+}
+
+td.urlaub {
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	vertical-align: top;
+	border: none;
+	font-size: 10pt;
+	font-family: Bitstream Vera Sans, Verdana, sans, Arial;
+}
+
+td.news {
+	padding: 3px;
+	vertical-align: top;
+	border-bottom-width: 1px;   /* nur unten */
+	border-bottom-color: #dddddd;
+	border-bottom-style: solid;
+	border-right-width: 1px;    /* nur rechts */
+	border-right-color: #dddddd;
+	border-right-style: solid;
+	font-family: Bitstream Vera Sans, Verdana, sans, Arial;
+	font-size: 10pt;
+}
+
+.install {
+	table-layout: fixed;
+	width: 500px;
+	padding: 3px;
+	border-spacing: 1px;
+	border: 0px;
+}
+

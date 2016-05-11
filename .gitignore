@@ -4,3 +4,18 @@
 */cache/*
 !*/cache/index.html
 !*/cache/.htaccess
+
+phpunit.log.json
+phpunit.log.xml
+phpunit.xml
+
+composer.phar
+/vendor/
+
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+# ignore smarty compiled templates
+/src/templates_c/*.tlp.php
+/src/admin/templates_c/*.tlp.php
