@@ -17,5 +17,5 @@ composer.phar
 # composer.lock
 
 # ignore smarty compiled templates
-/src/templates_c/*.tlp.php
-/src/admin/templates_c/*.tlp.php
+src/templates_c/*.tlp.php
+src/admin/templates_c/*.tlp.php
